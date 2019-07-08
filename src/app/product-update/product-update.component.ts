@@ -12,7 +12,7 @@ export class ProductUpdateComponent implements OnInit {
     updateProductForm: FormGroup;
     product: any = {};
   constructor(private route: ActivatedRoute, private router: Router, private ps: ProductsService, private fb: FormBuilder) {
-        this.createForm();
+      this.createForm();
    }
    
   createForm() {
